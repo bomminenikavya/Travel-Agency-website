@@ -1,0 +1,47 @@
+<style>
+body{
+background-image:url('next.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment: fixed;
+}/System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
+</style>
+</head>
+<body >
+<a
+<div class="container">
+<h1 style="text-align:center;">Travel reservation form </h1>
+<h3>* Denotes Mandotory</h3>
+<form id="registration_form" method="POST">
+  <label font-style:>Full name*:</label><br>
+  <input type="text" name="full_name" placeholder="FirstName LastName" autofocus="autofocus" value=""><br>   
+  <label>Email*:</label><br>
+  <input type="text" name="email_addr" value=""><br>
+  <label>Select Tour Package* :</label><br>  
+   <select name="package">
+  <option value="Goa" >Goa</options>
+  <option value="Kashmir" >Kashmir</options>
+  <option value="Rajasthan" >Rajasthan</options>
+  <option value="Delhi" >Delhi</options>
+  <option value="TamilNadu" >TamilNadu</options>
+   </select><br>
+  <label>Arrival date*:</label><br>
+  <input type="text" name="arv_dt" placeholder="dd/mm/yy" value=""><br>
+        <label>Number of persons*:</label><br>
+  <input type="text" name="persons" value=""s><br>
+     <label>What would you want to avail?*</label> <br> 
+ Boarding<input type="checkbox" name="facilities[]" value="boarding"  ><br>
+ Fooding<input type="checkbox" name="facilities[]" value="fooding"  ><br>
+ Sight seeing<input type="checkbox" name="facilities[]" value="sightseeing"  ><br>
+   <label>Discount Coupon code:</label><br>
+  <input type="text" name="dis_code" value=""><br>
+      <label>Terms and conditions*</label><br>
+  <input type="radio" name="tnc" value="agree" checked>I agree
+  <input type="radio" name="tnc" value="disagree" >I disagree<br>
+  <button type="submit" class="btn btn-large btn-primary" name="submit">Complete reservation</button>
+  
+</form>
+</div>
+<p><a href="company.html" style="text-align:"><button>Cancel</button></p></a> 
+</body>
+</html>
